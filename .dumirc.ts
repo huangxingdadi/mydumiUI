@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  publicPath: './',
-  runtimePublicPath: true,
+  base: '/mydumiUI/',
+  publicPath: '/mydumiUI/',
   themeConfig: {
     name: 'mycustomUI',
   },
